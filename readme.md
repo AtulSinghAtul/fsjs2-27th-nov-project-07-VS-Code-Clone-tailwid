@@ -1,20 +1,20 @@
-# Project - 07 HTML & CSS
+# Project - 07 Tailwind CSS
 
 # VS Code Clone Project
 
-- ## In this Project I have build clone of [VS Code](https://ineuron-rode-clone-project-18.netlify.app/) website.
+- ## In this Project I have build clone of [VS Code](fsjs2-27th-nov-project-07-tailwind.netlify.app) website.
 
-- ## I have build this entire UI of VS Code website with CSS.
+- ## I have build this entire UI of VS Code website with Tailwind CSS.
 
 ---
 
-- [VS Code Project Live Link](https://ineuron-rode-clone-project-18.netlify.app/)
+- [VS Code Project Live Link](fsjs2-27th-nov-project-07-tailwind.netlify.app)
 
-## Time-taken: 10hrs
+## Time-taken: 16hrs
 
-- ### _From Scratch to make VS Code clone time taken_ - ![time taken](https://img.shields.io/badge/2-hrs-yellowgreen)
+- ### _From Scratch to make VS Code clone time taken_ - ![time taken](https://img.shields.io/badge/3-hrs-yellowgreen)
 
-- ### _Time taken to use CSS_ - ![time taken](https://img.shields.io/badge/8-hrs-orange)
+- ### _Time taken to use Tailwind CSS_ - ![time taken](https://img.shields.io/badge/13-hrs-orange)
 
 ## Name : Atul Singh
 
@@ -22,14 +22,12 @@
 
 ## What I have learned during this Project?
 
-- ### _Core CSS_
+- ### _How to use Tailwind CSS_
 
-- ### _How to use CSS_
-
-- ### _I learned to make a responsive website using CSS_
+- ### _I learned to make a responsive website using Tailwind CSS_
 
 ---
 
-![time taken](https://img.shields.io/badge/Project-07-green) ![time taken](https://img.shields.io/badge/VSCode%20Clone-HTML%20%26%20CSS-orange)
+![time taken](https://img.shields.io/badge/Project-07-green) ![time taken](https://img.shields.io/badge/VSCode%20Clone-Tailwind%20%26%20CSS-orange)
 
 ![VS Code clone screenshot](Output.png)
