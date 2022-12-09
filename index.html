@@ -56,10 +56,10 @@
       </div>
 
       <div
-        class="hidden sc1000:flex sc1000:flex-row sc1000:justify-between sc1000:items-center sc1000:gap-x-1 sc1000:w-screen"
+        class="hidden sc1000:flex sc1000:flex-row sc1000:justify-between sc1000:items-center sc1000:gap-x-10 sc1000:w-screen sc1000:ml-[-10vw]"
       >
         <ul
-          class="sc1000:flex sc1000:flex-row sc1000:justify-center sc1000:items-center sc1000:gap-x-6 sc1000:text-gray-400 sc1000:text-[17px] sc1000:font-medium sc1000:w-screen"
+          class="sc1000:flex sc1000:flex-row sc1000:justify-center sc1000:items-center sc1000:gap-x-6 sc1000:text-gray-400 sc1000:text-[16px] sc1000:font-medium sc1000:w-screen"
         >
           <li class="inline-flex flex-row justify-center items-center gap-x-2">
             <img
@@ -68,33 +68,48 @@
               src="./assets/apple-touch-icon.png"
               alt="icon"
             />
-            <span class="text-[17px] sc1000:text-[20px] sc1000:text-white"
+            <span
+              class="text-[17px] sc1000:text-[20px] sc1000:text-white sc1000:hover:cursor-pointer"
               >Visual Studio Code</span
             >
           </li>
-          <li>Docs</li>
-          <li>Updates</li>
-          <li>Blog</li>
-          <li>API</li>
-          <li>Extensions</li>
-          <li>FAQ</li>
-          <li>Learn</li>
+          <li class="sc1000:hover:cursor-pointer sc1000:hover:text-white">
+            Docs
+          </li>
+          <li class="sc1000:hover:cursor-pointer sc1000:hover:text-white">
+            Updates
+          </li>
+          <li class="sc1000:hover:cursor-pointer sc1000:hover:text-white">
+            Blog
+          </li>
+          <li class="sc1000:hover:cursor-pointer sc1000:hover:text-white">
+            API
+          </li>
+          <li class="sc1000:hover:cursor-pointer sc1000:hover:text-white">
+            Extensions
+          </li>
+          <li class="sc1000:hover:cursor-pointer sc1000:hover:text-white">
+            FAQ
+          </li>
+          <li class="sc1000:hover:cursor-pointer sc1000:hover:text-white">
+            Learn
+          </li>
         </ul>
 
         <div
-          class="sc1000:flex sc1000:flex-row sc1000:justify-center sc1000:items-center sc1000:gap-x-6"
+          class="sc1000:flex sc1000:flex-row sc1000:justify-center sc1000:items-center sc1000:gap-x-6 xl:gap-x-0 xl:relative"
         >
           <label
             class="sc1000:flex sc1000:flex-row sc1000:justify-center sc1000:items-center sc1000:mr-[-10px]"
             for="search-bar"
           >
             <img
-              class="sc1000:w-[18px]"
+              class="sc1000:w-[30px] xl:w-[20px] xl:absolute xl:hover:cursor-pointer xl:left-[13px]"
               src="./assets/search.svg"
               alt="search.svg"
             />
             <input
-              class="sc1000:hidden"
+              class="sc1000:hidden xl:flex xl:py-4 xl:border-none xl:outline-none xl:bg-[#3D3D42] xl:hover:bg-[#525257] xl:placeholder:pl-12 xl:placeholder:text-white xl:pr-6"
               id="search-bar"
               type="text"
               placeholder="Search Docs"
@@ -125,10 +140,10 @@
     </div>
 
     <header
-      class="flex flex-col sc1000:flex-row justify-center items-center bg-[#2C2C32] text-white text-center h-fit pt-8 sc1000:gap-x-12"
+      class="flex flex-col sc1000:flex-row justify-center items-center xl:items-start bg-[#2C2C32] text-white text-center h-fit pt-8 sc1000:gap-x-12 w-screen xl:px-[200px]"
     >
       <div
-        class="flex flex-col justify-center sc1000:mb-12 items-center gap-y-3 mb-6"
+        class="flex flex-col justify-center sc1000:mb-12 items-center gap-y-3 mb-6 xl:mt-[20px]"
       >
         <span class="text-[42.5px] sc1000:text-[50px] font-light mb-[-30px]"
           >Code editing.</span
@@ -188,7 +203,7 @@
 
       <div class="pb-[4vh]">
         <img
-          class="w-[80vw] sc1000:w-[55vw]"
+          class="w-[80vw] sc1000:w-[55vw] xl:w-[50vw]"
           src="./assets/home-screenshot-win-lg.png"
           alt=""
         />
@@ -198,10 +213,10 @@
     <main>
       <section aria-label="header-next-bottom">
         <div
-          class="grid grid-cols-2 grid-rows-2 justify-items-center items-center gap-y-4 py-4 md:grid-cols-4 md:grid-rows-1 sc1000:w-screen"
+          class="grid grid-cols-2 grid-rows-2 justify-items-center items-center gap-y-4 py-4 xl:py-0 md:grid-cols-4 md:grid-rows-1 w-screen xl:px-[200px]"
         >
           <div
-            class="flex flex-col justify-center items-center hover:cursor-pointer hover:bg-[#E3E3E3] w-[45vw] sc1000:w-[20vw] h-[18vh]"
+            class="flex flex-col justify-center items-center hover:cursor-pointer hover:bg-[#E3E3E3] w-[45vw] sc1000:w-[20vw] xl:w-[17vw] h-[18vh]"
           >
             <div>
               <img
@@ -210,43 +225,45 @@
                 alt=""
               />
             </div>
-            <p class="text-xl mt-2">IntelliSense</p>
+            <p class="text-[17px] md:text-xl mt-2">IntelliSense</p>
           </div>
 
           <div
-            class="flex flex-col justify-center items-center hover:cursor-pointer hover:bg-[#E3E3E3] w-[45vw] sc1000:w-[20vw] h-[18vh]"
+            class="flex flex-col justify-center items-center hover:cursor-pointer hover:bg-[#E3E3E3] w-[45vw] sc1000:w-[20vw] xl:w-[17vw] h-[18vh]"
           >
             <div>
               <img class="w-[50px]" src="./assets/debugger.svg" alt="" />
             </div>
-            <p class="text-xl mt-2">Run and Debug</p>
+            <p class="text-[17px] md:text-xl mt-2">Run and Debug</p>
           </div>
 
           <div
-            class="flex flex-col justify-center items-center hover:cursor-pointer hover:bg-[#E3E3E3] w-[45vw] sc1000:w-[20vw] h-[18vh]"
+            class="flex flex-col justify-center items-center hover:cursor-pointer hover:bg-[#E3E3E3] w-[45vw] sc1000:w-[20vw] xl:w-[17vw] h-[18vh]"
           >
             <div>
               <img class="w-[50px]" src="./assets/connection.svg" alt="" />
             </div>
-            <p class="text-xl mt-2">Built-in Git</p>
+            <p class="text-[17px] md:text-xl mt-2">Built-in Git</p>
           </div>
 
           <div
-            class="flex flex-col justify-center items-center hover:cursor-pointer hover:bg-[#E3E3E3] w-[45vw] sc1000:w-[20vw] h-[18vh]"
+            class="flex flex-col justify-center items-center hover:cursor-pointer hover:bg-[#E3E3E3] w-[45vw] sc1000:w-[20vw] xl:w-[17vw] h-[18vh]"
           >
             <div>
               <img class="w-[50px]" src="./assets/grid1.svg" alt="" />
             </div>
-            <p class="text-xl mt-2">Extensions</p>
+            <p class="text-[17px] md:text-xl mt-2">Extensions</p>
           </div>
         </div>
       </section>
 
       <section
         aria-label="social-container"
-        class="flex flex-col sc1000:flex-row justify-center items-center sc1000:items-baseline bg-[#F5F5F5] w-[100vw] py-20 gap-y-6"
+        class="flex flex-col sc1000:flex-row justify-center items-center sc1000:items-baseline bg-[#F5F5F5] w-[100vw] py-20 gap-y-6 xl:gap-x-4 xl:px-[25vw]"
       >
-        <div class="flex flex-row px-10 gap-x-2 sc1000:w-[33vw]">
+        <div
+          class="flex flex-row px-10 xl:px-0 gap-x-2 sc1000:w-[33vw] xl:w-[25vw]"
+        >
           <img
             class="w-[65px] h-[65px] rounded-[50%]"
             src="./assets/Una.jpeg"
@@ -264,7 +281,9 @@
           </div>
         </div>
 
-        <div class="flex flex-row px-10 gap-x-2 sc1000:w-[33vw]">
+        <div
+          class="flex flex-row px-10 xl:px-0 gap-x-2 sc1000:w-[33vw] xl:w-[25vw]"
+        >
           <img
             class="w-[65px] h-[65px] rounded-[50%]"
             src="./assets/jadbox.jpeg"
@@ -281,7 +300,9 @@
           </div>
         </div>
 
-        <div class="flex flex-row px-10 gap-x-2 sc1000:w-[33vw]">
+        <div
+          class="flex flex-row px-10 xl:px-0 gap-x-2 sc1000:w-[33vw] xl:w-[25vw]"
+        >
           <img
             class="w-[65px] h-[65px] rounded-[50%]"
             src="./assets/PKodmad.jpeg"
@@ -301,10 +322,10 @@
 
       <section
         aria-label="testimonial"
-        class="flex flex-col justify-center items-center gap-y-8 w-screen"
+        class="flex flex-col justify-center items-center gap-y-8 w-screen px-2 xl:px-[150px]"
       >
         <div
-          class="flex flex-col md:flex-row justify-center items-center md:items-start gap-y-4 px-4 sc1000:px-10 py-14"
+          class="flex flex-col md:flex-row justify-center items-center md:items-start gap-y-4 px-4 sc1000:px-10 py-14 xl:w-screen xl:px-[200px]"
         >
           <div class="md:mr-[100px]">
             <img
@@ -314,10 +335,14 @@
             />
           </div>
           <div>
-            <p class="text-[18px] md:text-[25px] font-light mb-10">
+            <p
+              class="text-[18px] md:text-[25px] xl:text-[30px] font-light mb-10"
+            >
               Meet IntelliSense.
             </p>
-            <p class="text-[15px] md:text-[17px] leading-10 text-gray-600">
+            <p
+              class="text-[15px] md:text-[17px] xl:text-[19px] leading-10 text-gray-600"
+            >
               Go beyond syntax highlighting and autocomplete with IntelliSense,
               which provides smart completions based on variable types, function
               definitions, and imported modules.
@@ -326,7 +351,7 @@
         </div>
 
         <div
-          class="flex flex-col justify-center items-center md:items-start gap-y-4 px-4 sc1000:px-10 py-14 bg-[#F5F5F5] md:flex-row-reverse"
+          class="flex flex-col justify-center items-center md:items-start gap-y-4 px-4 sc1000:px-10 py-14 bg-[#F5F5F5] md:flex-row-reverse xl:w-screen xl:px-[200px]"
         >
           <div class="md:ml-[80px]">
             <img
@@ -336,10 +361,14 @@
             />
           </div>
           <div>
-            <p class="text-[18px] md:text-[25px] font-light mb-10">
+            <p
+              class="text-[18px] md:text-[25px] xl:text-[30px] font-light mb-10"
+            >
               Print statement debugging is a thing of the past.
             </p>
-            <p class="text-[15px] md:text-[17px] leading-10 text-gray-600">
+            <p
+              class="text-[15px] md:text-[17px] xl:text-[19px] leading-10 text-gray-600"
+            >
               Debug code right from the editor. Launch or attach to your running
               apps and debug with break points, call stacks, and an interactive
               console.
@@ -348,7 +377,7 @@
         </div>
 
         <div
-          class="flex flex-col md:flex-row justify-center items-center md:items-start gap-y-4 px-4 sc1000:px-10 py-14"
+          class="flex flex-col md:flex-row justify-center items-center md:items-start gap-y-4 px-4 sc1000:px-10 py-14 xl:w-screen xl:px-[200px]"
         >
           <div class="md:mr-[100px]">
             <img
@@ -358,10 +387,14 @@
             />
           </div>
           <div>
-            <p class="text-[18px] md:text-[25px] font-light mb-10">
+            <p
+              class="text-[18px] md:text-[25px] xl:text-[30px] font-light mb-10"
+            >
               Git commands built-in.
             </p>
-            <p class="text-[15px] md:text-[17px] leading-10 text-gray-600">
+            <p
+              class="text-[15px] md:text-[17px] xl:text-[19px] leading-10 text-gray-600"
+            >
               Working with Git and other SCM providers has never been easier.
               Review diffs, stage files, and make commits right from the editor.
               Push and pull from any hosted SCM service.
@@ -370,7 +403,7 @@
         </div>
 
         <div
-          class="flex flex-col md:flex-row-reverse justify-center items-center md:items-start gap-y-4 bg-[#F5F5F5] px-4 sc1000:px-10 py-14"
+          class="flex flex-col md:flex-row-reverse justify-center items-center md:items-start gap-y-4 bg-[#F5F5F5] px-4 sc1000:px-10 py-14 xl:w-screen xl:px-[200px]"
         >
           <div class="md:ml-[80px] md:pr-4">
             <a href="#" rel="noopener noreferrer">
@@ -382,10 +415,14 @@
             </a>
           </div>
           <div>
-            <p class="text-[18px] md:text-[25px] font-light mb-6">
+            <p
+              class="text-[18px] md:text-[25px] xl:text-[30px] font-light mb-6"
+            >
               Extensible and customizable.
             </p>
-            <p class="text-[15px] md:text-[17px] leading-10 text-gray-600">
+            <p
+              class="text-[15px] md:text-[17px] xl:text-[19px] leading-10 text-gray-600"
+            >
               Want even more features? Install extensions to add new languages,
               themes, debuggers, and to connect to additional services.
               Extensions run in separate processes, ensuring they won't slow
@@ -398,7 +435,7 @@
         </div>
 
         <div
-          class="flex flex-col md:flex-row justify-center items-center md:items-start gap-y-4 px-4 sc1000:px-10 py-14"
+          class="flex flex-col md:flex-row justify-center items-center md:items-start gap-y-4 px-4 sc1000:px-10 py-14 xl:w-screen xl:px-[200px]"
         >
           <div class="md:mr-[100px]">
             <img
@@ -408,10 +445,14 @@
             />
           </div>
           <div>
-            <p class="text-[18px] md:text-[25px] font-light mb-10">
+            <p
+              class="text-[18px] md:text-[25px] xl:text-[30px] font-light mb-10"
+            >
               Deploy with confidence and ease
             </p>
-            <p class="text-[15px] md:text-[17px] leading-10 text-gray-600">
+            <p
+              class="text-[15px] md:text-[17px] xl:text-[19px] leading-10 text-gray-600"
+            >
               With
               <span class="text-blue-500 hover:underline hover:cursor-pointer"
                 >Microsoft Azure</span
@@ -429,7 +470,7 @@
 
       <section
         aria-label="VS-Code-for"
-        class="flex flex-col justify-evenly items-center gap-y-9 bg-[#F5F5F5] py-20"
+        class="flex flex-col justify-evenly items-center gap-y-9 bg-[#F5F5F5] py-20 xl:px-[300px]"
       >
         <p class="text-2xl sc1000:text-[28px] sc1000:text-gray-600 font-light">
           VS Code for
@@ -437,47 +478,47 @@
         <ul
           class="grid grid-cols-2 grid-rows-6 justify-items-start items-center gap-y-6 gap-x-[25vw] md:grid-cols-4 md:grid-rows-3 md:gap-x-[12vw] sc1000:grid-cols-6 sc1000:grid-rows-2 sc1000:gap-x-[6vw] sc1000:text-gray-600"
         >
-          <li class="flex text-[15px] sc1000:text-[17px]">
+          <li class="flex text-[15px] sc1000:text-[17px] xl:text-[19px]">
             <img src="./assets/javascript.svg" alt="js-img" /> JavaScript
           </li>
-          <li class="flex text-[15px] sc1000:text-[17px]">
+          <li class="flex text-[15px] sc1000:text-[17px] xl:text-[19px]">
             <img src="./assets/python.svg" alt="python-img" /> Python
           </li>
-          <li class="flex text-[15px] sc1000:text-[17px]">
+          <li class="flex text-[15px] sc1000:text-[17px] xl:text-[19px]">
             <img src="./assets/java.svg" alt="java-img" />Java
           </li>
-          <li class="flex text-[15px] sc1000:text-[17px]">
+          <li class="flex text-[15px] sc1000:text-[17px] xl:text-[19px]">
             <img src="./assets/markdown.svg" alt="markdown-img" />Markdown
           </li>
 
-          <li class="flex text-[15px] sc1000:text-[17px]">
+          <li class="flex text-[15px] sc1000:text-[17px] xl:text-[19px]">
             <img src="./assets/typescript.svg" alt="markdown-img" />TypeScript
           </li>
-          <li class="flex text-[15px] sc1000:text-[17px]">
+          <li class="flex text-[15px] sc1000:text-[17px] xl:text-[19px]">
             <img src="./assets/cpp.svg" alt="markdown-img" />C/C++
           </li>
-          <li class="flex text-[15px] sc1000:text-[17px]">
+          <li class="flex text-[15px] sc1000:text-[17px] xl:text-[19px]">
             <img src="./assets/json.svg" alt="markdown-img" />JSON
           </li>
-          <li class="flex text-[15px] sc1000:text-[17px]">
+          <li class="flex text-[15px] sc1000:text-[17px] xl:text-[19px]">
             <img src="./assets/powershell.svg" alt="markdown-img" />Powershell
           </li>
 
-          <li class="flex text-[15px] sc1000:text-[17px]">
+          <li class="flex text-[15px] sc1000:text-[17px] xl:text-[19px]">
             <img src="./assets/html.svg" alt="markdown-img" />HTML/CSS
           </li>
-          <li class="flex text-[15px] sc1000:text-[17px]">
+          <li class="flex text-[15px] sc1000:text-[17px] xl:text-[19px]">
             <img src="./assets/csharp.svg" alt="markdown-img" />C#
           </li>
-          <li class="flex text-[15px] sc1000:text-[17px]">
+          <li class="flex text-[15px] sc1000:text-[17px] xl:text-[19px]">
             <img src="./assets/php.svg" alt="markdown-img" />PHP
           </li>
-          <li class="flex text-[15px] sc1000:text-[17px]">
+          <li class="flex text-[15px] sc1000:text-[17px] xl:text-[19px]">
             <img src="./assets/yaml.svg" alt="markdown-img" />YAML
           </li>
         </ul>
         <p
-          class="text-blue-600 text-[15px] px-8 text-center hover:underline hover:cursor-pointer mb-4"
+          class="text-blue-600 text-[15px] xl:text-[17px] px-8 text-center hover:underline hover:cursor-pointer mb-4"
         >
           and many more languages on the Marketplace...
         </p>
@@ -735,7 +776,7 @@
     </main>
 
     <footer
-      class="flex flex-col sc1000:flex-row justify-center sc1000:justify-between items-center sc1000:items-start md:items-start gap-y-10 bg-[#333333] px-8 py-10 text-white"
+      class="flex flex-col sc1000:flex-row justify-center sc1000:justify-between items-center sc1000:items-start md:items-start gap-y-10 bg-[#333333] px-8 py-10 text-white w-screen xl:px-[200px]"
     >
       <div class="flex flex-row justify-center items-center gap-x-4">
         <span class="text-[15px] hidden md:block">Hello from Seattle.</span>
