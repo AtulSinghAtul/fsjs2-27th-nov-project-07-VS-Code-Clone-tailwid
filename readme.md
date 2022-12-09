@@ -2,13 +2,13 @@
 
 # VS Code Clone Project
 
-- ## In this Project I have build clone of [VS Code](fsjs2-27th-nov-project-07-tailwind.netlify.app) website.
+- ## In this Project I have build clone of [VS Code](https://fsjs2-27th-nov-project-07-tailwind.netlify.app/) website.
 
 - ## I have build this entire UI of VS Code website with Tailwind CSS.
 
 ---
 
-- [VS Code Project Live Link](fsjs2-27th-nov-project-07-tailwind.netlify.app)
+- [VS Code Project Live Link](https://fsjs2-27th-nov-project-07-tailwind.netlify.app/)
 
 ## Time-taken: 16hrs
 
