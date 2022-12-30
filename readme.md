@@ -30,4 +30,5 @@
 
 ![time taken](https://img.shields.io/badge/Project-07-green) ![time taken](https://img.shields.io/badge/VSCode%20Clone-Tailwind%20%26%20CSS-orange)
 
-![VS Code clone screenshot](Output.png)
+
+![VS-Code-Clone-Project](https://user-images.githubusercontent.com/112545072/210029818-5f41501e-38e1-437f-ba98-5fb6e1a4a5e9.png)
