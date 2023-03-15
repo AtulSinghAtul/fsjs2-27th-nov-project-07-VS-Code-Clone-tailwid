@@ -8,7 +8,6 @@
 ---
 
 - ## [Project Live Link](https://fsjs2-27th-nov-project-07-tailwind.netlify.app/)
-
 > ### Social Media Links:
 
 - ### [Portfolio Website Link](https://www.findcoder.io/u/atulsinghatul)
